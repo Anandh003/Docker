@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: secret
+metadata:
+    name: mongodb-secret
+type: Opaque
+data:
+    mongo-root-username: dXNlcm5hbWU=
+    mnongo-root-password: cGFzc3dvcmQ=
